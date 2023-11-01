@@ -1,0 +1,46 @@
+/* Set a fixed size for the images */
+.workItem img {
+    width: 50%; /* Adjust the width to your desired size */
+    height: auto;
+    max-width: 50%; /* Ensure images don't exceed their container */
+  }
+  
+  /* Align text left and set a maximum width for text containers */
+  .workItem h3,
+  .workItem p {
+    text-align: left;
+  }
+  
+  .workItem h3 {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-top: 10px; /* Add spacing between heading and text */
+  }
+  
+  .workItem p {
+    font-size: 16px; /* Adjust the font size as needed */
+    line-height: 1.5; /* Add spacing between lines of text */
+    max-width: 80%; /* Adjust the maximum width of the text container */
+    margin: 10px 0; /* Add spacing around text */
+  }
+
+  .heroImg {
+    padding-top: 30px;
+    padding-bottom: 30px; 
+}
+.col {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.heroImg img{
+    width: 50%; /* Adjust the width to your desired size */
+    height: auto;
+    max-width: 50%; 
+}
+.btn{
+border-radius: 20px;
+background: #008080;
+}
+
+.navbar{
+    background-color: white;
+}
